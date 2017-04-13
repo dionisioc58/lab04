@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Laboratório 4 - Questões diversas: Código-Fonte de include/operacoes.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Laboratório 4 - Questões diversas
+   </div>
+   <div id="projectbrief">Laboratório 4 - Questões diversas</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+      <li><a href="globals.html"><span>Arquivos&#160;Membros</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Arquivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funções</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variáveis</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerações</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores enumerados</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Definições e Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">operacoes.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="operacoes_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef OPERACOES_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">    #define OPERACOES_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">    #include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">    #include &quot;<a class="code" href="stats_8h.html">stats.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">int</span>* <a class="code" href="operacoes_8h.html#a21462069c9311ac9772b4bfdb28f83d3">max</a>(<a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">int</span> ano = 0);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">int</span>* <a class="code" href="operacoes_8h.html#ac6202dd2abe2b00567716dcd6c8fa48a">min</a>(<a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">int</span> ano = 0);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">float</span>* <a class="code" href="operacoes_8h.html#a16ab511127b26653cb486058a77d4081">avg</a>(<a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">int</span> ano = 0);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">float</span>* <a class="code" href="operacoes_8h.html#af1ba2262d8cdb307e8ae9f8fc6b744d2">dev</a>(<a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">int</span> ano = 0);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span>* <a class="code" href="operacoes_8h.html#a1a3050ef562b330e686e7552020859ce">sum</a>(<a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">int</span> ano = 0);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="operacoes_8h.html#aef3cf615b30523fcbd1da81e049a24d9">minTc</a>(<a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">int</span> ano1, <span class="keywordtype">int</span> ano2, <a class="code" href="structTaxa.html">Taxa</a> &amp;tc);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="operacoes_8h.html#a16d12f35fe3b9453c77d2de353c5b206">maxTc</a>(<a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">int</span> ano1, <span class="keywordtype">int</span> ano2, <a class="code" href="structTaxa.html">Taxa</a> &amp;tc);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="operacoes_8h.html#ad7e54190e6cece8fc6eda75caf5cdbda">tcPerc</a>(<span class="keywordtype">int</span> valor1, <span class="keywordtype">int</span> valor2);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="operacoes_8h_html_af1ba2262d8cdb307e8ae9f8fc6b744d2"><div class="ttname"><a href="operacoes_8h.html#af1ba2262d8cdb307e8ae9f8fc6b744d2">dev</a></div><div class="ttdeci">float * dev(Stats *dados, int elementos, int ano=0)</div><div class="ttdoc">Função que calcula os valores de desvio padrão de cada ano. </div><div class="ttdef"><b>Definition:</b> operacoes.cpp:94</div></div>
+<div class="ttc" id="operacoes_8h_html_a16ab511127b26653cb486058a77d4081"><div class="ttname"><a href="operacoes_8h.html#a16ab511127b26653cb486058a77d4081">avg</a></div><div class="ttdeci">float * avg(Stats *dados, int elementos, int ano=0)</div><div class="ttdoc">Função que calcula os valores médios de cada elemento de um vetor stats. </div><div class="ttdef"><b>Definition:</b> operacoes.cpp:69</div></div>
+<div class="ttc" id="stats_8h_html"><div class="ttname"><a href="stats_8h.html">stats.h</a></div><div class="ttdoc">Arquivo cabeçalho com a definição de estruturas. </div></div>
+<div class="ttc" id="operacoes_8h_html_a16d12f35fe3b9453c77d2de353c5b206"><div class="ttname"><a href="operacoes_8h.html#a16d12f35fe3b9453c77d2de353c5b206">maxTc</a></div><div class="ttdeci">bool maxTc(Stats *dados, int elementos, int ano1, int ano2, Taxa &amp;tc)</div><div class="ttdoc">Função que calcula a maior taxa de crescimento entre dois anos. </div><div class="ttdef"><b>Definition:</b> operacoes.cpp:168</div></div>
+<div class="ttc" id="operacoes_8h_html_a1a3050ef562b330e686e7552020859ce"><div class="ttname"><a href="operacoes_8h.html#a1a3050ef562b330e686e7552020859ce">sum</a></div><div class="ttdeci">int * sum(Stats *dados, int elementos, int ano=0)</div><div class="ttdoc">Função que calcula os valores totais de cada ano. </div><div class="ttdef"><b>Definition:</b> operacoes.cpp:113</div></div>
+<div class="ttc" id="operacoes_8h_html_aef3cf615b30523fcbd1da81e049a24d9"><div class="ttname"><a href="operacoes_8h.html#aef3cf615b30523fcbd1da81e049a24d9">minTc</a></div><div class="ttdeci">bool minTc(Stats *dados, int elementos, int ano1, int ano2, Taxa &amp;tc)</div><div class="ttdoc">Função que calcula a menor taxa de crescimento entre dois anos. </div><div class="ttdef"><b>Definition:</b> operacoes.cpp:138</div></div>
+<div class="ttc" id="operacoes_8h_html_ac6202dd2abe2b00567716dcd6c8fa48a"><div class="ttname"><a href="operacoes_8h.html#ac6202dd2abe2b00567716dcd6c8fa48a">min</a></div><div class="ttdeci">int * min(Stats *dados, int elementos, int ano=0)</div><div class="ttdoc">Função que calcula os menores valores de cada elemento de um vetor stats. </div><div class="ttdef"><b>Definition:</b> operacoes.cpp:42</div></div>
+<div class="ttc" id="structTaxa_html"><div class="ttname"><a href="structTaxa.html">Taxa</a></div><div class="ttdoc">Estrutura para armazenar a taxa de crescimento. </div><div class="ttdef"><b>Definition:</b> stats.h:29</div></div>
+<div class="ttc" id="operacoes_8h_html_a21462069c9311ac9772b4bfdb28f83d3"><div class="ttname"><a href="operacoes_8h.html#a21462069c9311ac9772b4bfdb28f83d3">max</a></div><div class="ttdeci">int * max(Stats *dados, int elementos, int ano=0)</div><div class="ttdoc">Função que calcula os maiores valores de cada elemento de um vetor stats. </div><div class="ttdef"><b>Definition:</b> operacoes.cpp:18</div></div>
+<div class="ttc" id="structStats_html"><div class="ttname"><a href="structStats.html">Stats</a></div><div class="ttdoc">Estrutura para armazenar os dados de um município. </div><div class="ttdef"><b>Definition:</b> stats.h:19</div></div>
+<div class="ttc" id="operacoes_8h_html_ad7e54190e6cece8fc6eda75caf5cdbda"><div class="ttname"><a href="operacoes_8h.html#ad7e54190e6cece8fc6eda75caf5cdbda">tcPerc</a></div><div class="ttdeci">float tcPerc(int valor1, int valor2)</div><div class="ttdoc">Função que calcula a taxa de crescimento percentual entre dois valores. </div><div class="ttdef"><b>Definition:</b> operacoes.cpp:195</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

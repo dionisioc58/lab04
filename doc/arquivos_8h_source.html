@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Laboratório 4 - Questões diversas: Código-Fonte de include/arquivos.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Laboratório 4 - Questões diversas
+   </div>
+   <div id="projectbrief">Laboratório 4 - Questões diversas</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+      <li><a href="globals.html"><span>Arquivos&#160;Membros</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Arquivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funções</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variáveis</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerações</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores enumerados</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Definições e Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">arquivos.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="arquivos_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef ARQUIVOS_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">    #define ARQUIVOS_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">    #include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">using</span> std::cout;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">using</span> std::cerr;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">using</span> std::endl;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">using</span> std::stringstream;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">    #include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">    #include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">using</span> std::ifstream;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">using</span> std::ofstream;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">    #include &quot;<a class="code" href="definicoes_8h.html">definicoes.h</a>&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">    #include &quot;<a class="code" href="stats_8h.html">stats.h</a>&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">    #include &quot;<a class="code" href="operacoes_8h.html">operacoes.h</a>&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526c">   29</a></span>&#160;    <span class="keyword">enum</span> <a class="code" href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526c">Colunas</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526cadcb94b1dd2a5f38700e4c9b407ad4589">   30</a></span>&#160;        <a class="code" href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526cadcb94b1dd2a5f38700e4c9b407ad4589">colAll</a> = 0, </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526ca212873c49ebaf9dfb1b8872af64e9522">   31</a></span>&#160;        <a class="code" href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526ca212873c49ebaf9dfb1b8872af64e9522">colTot</a> = 1 </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    };</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="arquivos_8h.html#abc4042f54b05e0531be065f426cdaffc">testFile</a>(<span class="keywordtype">string</span> nome);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="arquivos_8h.html#aa833cd5cc26013d66db7f2475e8fbfab">loadFile</a>(<span class="keywordtype">string</span> nome, <a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> linhas, <span class="keywordtype">string</span>&amp; msg);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="arquivos_8h.html#a254d7180e89638354d88bc95d2b2bba2">gravaEstat</a>(<span class="keywordtype">string</span> nome, <a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">string</span> sep, <a class="code" href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526c">Colunas</a> cols);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="arquivos_8h.html#adbce938035ff6ca65cc3b563af7192f5">loadAlvos</a>(<span class="keywordtype">string</span> nome, <a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> qtde_dados, <a class="code" href="structStats.html">Stats</a> *alvos, <span class="keywordtype">int</span> qtde_alvos);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="arquivos_8h.html#a29aa47aa195c6244b14e176275d88e70">imprimeDados</a>(<a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="arquivos_8h.html#a72a1d414c26cf9692a3d1b27681ecdf4">gravaExtra</a>(<span class="keywordtype">string</span> nome, <a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">string</span> sep);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="arquivos_8h.html#a9e99ecf67bf2756be561bf464a4de2d4">gravaGnuset</a>(<span class="keywordtype">string</span> nome, <a class="code" href="structStats.html">Stats</a> *dados, <span class="keywordtype">int</span> elementos, <span class="keywordtype">int</span> maior, <span class="keywordtype">int</span> menor);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="operacoes_8h_html"><div class="ttname"><a href="operacoes_8h.html">operacoes.h</a></div><div class="ttdoc">Arquivo cabeçalho com a definição de funções para operações no vetor de stats. </div></div>
+<div class="ttc" id="arquivos_8h_html_a9e99ecf67bf2756be561bf464a4de2d4"><div class="ttname"><a href="arquivos_8h.html#a9e99ecf67bf2756be561bf464a4de2d4">gravaGnuset</a></div><div class="ttdeci">bool gravaGnuset(string nome, Stats *dados, int elementos, int maior, int menor)</div><div class="ttdoc">Função que grava o arquivo de configurações gnuplot para os alvos. </div><div class="ttdef"><b>Definition:</b> arquivos.cpp:239</div></div>
+<div class="ttc" id="arquivos_8h_html_abc4042f54b05e0531be065f426cdaffc"><div class="ttname"><a href="arquivos_8h.html#abc4042f54b05e0531be065f426cdaffc">testFile</a></div><div class="ttdeci">int testFile(string nome)</div><div class="ttdoc">Função que abre o arquivo de dados. </div><div class="ttdef"><b>Definition:</b> arquivos.cpp:16</div></div>
+<div class="ttc" id="arquivos_8h_html_a4f0bc5f5ae13b29bf3b768505784526cadcb94b1dd2a5f38700e4c9b407ad4589"><div class="ttname"><a href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526cadcb94b1dd2a5f38700e4c9b407ad4589">colAll</a></div><div class="ttdef"><b>Definition:</b> arquivos.h:30</div></div>
+<div class="ttc" id="stats_8h_html"><div class="ttname"><a href="stats_8h.html">stats.h</a></div><div class="ttdoc">Arquivo cabeçalho com a definição de estruturas. </div></div>
+<div class="ttc" id="arquivos_8h_html_aa833cd5cc26013d66db7f2475e8fbfab"><div class="ttname"><a href="arquivos_8h.html#aa833cd5cc26013d66db7f2475e8fbfab">loadFile</a></div><div class="ttdeci">bool loadFile(string nome, Stats *dados, int linhas, string &amp;msg)</div><div class="ttdoc">Função que carrega o arquivo de dados. </div><div class="ttdef"><b>Definition:</b> arquivos.cpp:40</div></div>
+<div class="ttc" id="arquivos_8h_html_a29aa47aa195c6244b14e176275d88e70"><div class="ttname"><a href="arquivos_8h.html#a29aa47aa195c6244b14e176275d88e70">imprimeDados</a></div><div class="ttdeci">void imprimeDados(Stats *dados, int elementos)</div><div class="ttdoc">Função que imprime os dados selecionados. </div><div class="ttdef"><b>Definition:</b> arquivos.cpp:194</div></div>
+<div class="ttc" id="arquivos_8h_html_a4f0bc5f5ae13b29bf3b768505784526ca212873c49ebaf9dfb1b8872af64e9522"><div class="ttname"><a href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526ca212873c49ebaf9dfb1b8872af64e9522">colTot</a></div><div class="ttdef"><b>Definition:</b> arquivos.h:31</div></div>
+<div class="ttc" id="arquivos_8h_html_adbce938035ff6ca65cc3b563af7192f5"><div class="ttname"><a href="arquivos_8h.html#adbce938035ff6ca65cc3b563af7192f5">loadAlvos</a></div><div class="ttdeci">bool loadAlvos(string nome, Stats *dados, int qtde_dados, Stats *alvos, int qtde_alvos)</div><div class="ttdoc">Função que carrega o arquivo de alvos. </div><div class="ttdef"><b>Definition:</b> arquivos.cpp:170</div></div>
+<div class="ttc" id="definicoes_8h_html"><div class="ttname"><a href="definicoes_8h.html">definicoes.h</a></div><div class="ttdoc">Arquivo com a definição de auxiliares. </div></div>
+<div class="ttc" id="arquivos_8h_html_a4f0bc5f5ae13b29bf3b768505784526c"><div class="ttname"><a href="arquivos_8h.html#a4f0bc5f5ae13b29bf3b768505784526c">Colunas</a></div><div class="ttdeci">Colunas</div><div class="ttdef"><b>Definition:</b> arquivos.h:29</div></div>
+<div class="ttc" id="arquivos_8h_html_a72a1d414c26cf9692a3d1b27681ecdf4"><div class="ttname"><a href="arquivos_8h.html#a72a1d414c26cf9692a3d1b27681ecdf4">gravaExtra</a></div><div class="ttdeci">bool gravaExtra(string nome, Stats *dados, int elementos, string sep)</div><div class="ttdoc">Função que grava as informações completas em arquivo. </div><div class="ttdef"><b>Definition:</b> arquivos.cpp:207</div></div>
+<div class="ttc" id="arquivos_8h_html_a254d7180e89638354d88bc95d2b2bba2"><div class="ttname"><a href="arquivos_8h.html#a254d7180e89638354d88bc95d2b2bba2">gravaEstat</a></div><div class="ttdeci">bool gravaEstat(string nome, Stats *dados, int elementos, string sep, Colunas cols)</div><div class="ttdoc">Função que grava as estatísticas em arquivo. </div><div class="ttdef"><b>Definition:</b> arquivos.cpp:123</div></div>
+<div class="ttc" id="structStats_html"><div class="ttname"><a href="structStats.html">Stats</a></div><div class="ttdoc">Estrutura para armazenar os dados de um município. </div><div class="ttdef"><b>Definition:</b> stats.h:19</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>
